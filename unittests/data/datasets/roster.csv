@@ -1,0 +1,117 @@
+pick,player_id,name,position,team,owner,round
+1,3043078,Derrick Henry,RB,Dak PreScott Stapp,alex faust,1
+2,3042519,Aaron Jones,RB,Josh Almighty,Neil Hersh,1
+3,4242335,Jonathan Taylor,RB,Name Change Blasphemy,Brett Wild,1
+4,4259545,D'Andre Swift,RB,Tokyo Drift Forever,Glorb Blorbensen,1
+5,3068267,Austin Ekeler,RB,Minshew Mania,John Prutting,1
+6,4262921,Justin Jefferson,WR,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,1
+7,3116593,Dalvin Cook,RB,Burrow My Head In The Sand,Stephen Hershfield,1
+8,3128720,Nick Chubb,RB,Keep On Massag- ing Me Baby,Andrew Edmonds,1
+9,3117251,Christian McCaffrey,RB,Fly Like An Eagles D/ST,Louis  Kapp,1
+10,3116385,Joe Mixon,RB,Shøçk thê Möñkę,Kyle Justus,1
+11,15847,Travis Kelce,TE,Shøçk thê Möñkę,Kyle Justus,2
+12,16800,Davante Adams,WR,Fly Like An Eagles D/ST,Louis  Kapp,2
+13,4241389,CeeDee Lamb,WR,Keep On Massag- ing Me Baby,Andrew Edmonds,2
+14,2976212,Stefon Diggs,WR,Burrow My Head In The Sand,Stephen Hershfield,2
+15,3054850,Alvin Kamara,RB,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,2
+16,4241457,Najee Harris,RB,Minshew Mania,John Prutting,2
+18,3126486,Deebo Samuel,WR,Name Change Blasphemy,Brett Wild,2
+19,3045147,James Conner,RB,Josh Almighty,Neil Hersh,2
+20,3929630,Saquon Barkley,RB,Keep On Massag- ing Me Baby,Andrew Edmonds,2
+21,16737,Mike Evans,WR,Keep On Massag- ing Me Baby,Andrew Edmonds,3
+22,3918298,Josh Allen,QB,Josh Almighty,Neil Hersh,3
+23,4047650,DK Metcalf,WR,Name Change Blasphemy,Brett Wild,3
+24,4427366,Breece Hall,RB,Tokyo Drift Forever,Glorb Blorbensen,3
+25,3051392,Ezekiel Elliott,RB,Minshew Mania,John Prutting,3
+26,4241985,J.K. Dobbins,RB,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,3
+27,4360294,Antonio Gibson,RB,Burrow My Head In The Sand,Stephen Hershfield,3
+28,3128429,Courtland Sutton,WR,Dak PreScott Stapp,alex faust,3
+29,4047646,A.J. Brown,WR,Fly Like An Eagles D/ST,Louis  Kapp,3
+30,3116406,Tyreek Hill,WR,Shøçk thê Möñkę,Kyle Justus,3
+31,4047365,Josh Jacobs,RB,Shøçk thê Möñkę,Kyle Justus,4
+32,4038941,Justin Herbert,QB,Fly Like An Eagles D/ST,Louis  Kapp,4
+33,4035538,David Montgomery,RB,Dak PreScott Stapp,alex faust,4
+34,4241555,Elijah Mitchell,RB,Burrow My Head In The Sand,Stephen Hershfield,4
+35,3915416,DJ Moore,WR,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,4
+36,4360248,Kyle Pitts,TE,Minshew Mania,John Prutting,4
+37,2977187,Cooper Kupp,WR,Tokyo Drift Forever,Glorb Blorbensen,4
+38,4239934,AJ Dillon,RB,Name Change Blasphemy,Brett Wild,4
+39,15818,Keenan Allen,WR,Josh Almighty,Neil Hersh,4
+40,4239996,Travis Etienne Jr.,RB,Dak PreScott Stapp,alex faust,4
+41,3121422,Terry McLaurin,WR,Dak PreScott Stapp,alex faust,5
+42,3117256,Dalton Schultz,TE,Josh Almighty,Neil Hersh,5
+43,3139477,Patrick Mahomes,QB,Name Change Blasphemy,Brett Wild,5
+45,4372016,Jaylen Waddle,WR,Minshew Mania,John Prutting,5
+46,3932905,Diontae Johnson,WR,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,5
+47,2576925,Darren Waller,TE,Burrow My Head In The Sand,Stephen Hershfield,5
+48,3040151,George Kittle,TE,Keep On Massag- ing Me Baby,Andrew Edmonds,5
+49,4045163,Miles Sanders,RB,Fly Like An Eagles D/ST,Louis  Kapp,5
+50,3916387,Lamar Jackson,QB,Shøçk thê Möñkę,Kyle Justus,5
+52,3116365,Mark Andrews,TE,Fly Like An Eagles D/ST,Louis  Kapp,6
+54,4241372,Marquise Brown,WR,Burrow My Head In The Sand,Stephen Hershfield,6
+55,3917315,Kyler Murray,QB,Dak PreScott Stapp,alex faust,6
+56,4241463,Jerry Jeudy,WR,Minshew Mania,John Prutting,6
+58,16460,Adam Thielen,WR,Name Change Blasphemy,Brett Wild,6
+59,4243537,Gabe Davis,WR,Josh Almighty,Neil Hersh,6
+60,4362628,Ja'Marr Chase,WR,Keep On Massag- ing Me Baby,Andrew Edmonds,6
+62,4567048,Kenneth Walker III,RB,Josh Almighty,Neil Hersh,7
+63,4036133,T.J. Hockenson,TE,Name Change Blasphemy,Brett Wild,7
+64,3930086,Dawson Knox,TE,Minshew Mania,John Prutting,7
+65,4374302,Amon-Ra St. Brown,WR,Minshew Mania,John Prutting,7
+66,3045138,Mike Williams,WR,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,7
+67,3915511,Joe Burrow,QB,Burrow My Head In The Sand,Stephen Hershfield,7
+69,3116165,Chris Godwin,WR,Fly Like An Eagles D/ST,Louis  Kapp,7
+71,4239993,Tee Higgins,WR,Shøçk thê Möñkę,Kyle Justus,8
+72,15807,Cordarrelle Patterson,RB,Fly Like An Eagles D/ST,Louis  Kapp,8
+73,3115364,Leonard Fournette,RB,Dak PreScott Stapp,alex faust,8
+74,4040655,Darnell Mooney,WR,Burrow My Head In The Sand,Stephen Hershfield,8
+76,4040715,Jalen Hurts,QB,Minshew Mania,John Prutting,8
+77,2976499,Amari Cooper,WR,Tokyo Drift Forever,Glorb Blorbensen,8
+78,3059915,Kareem Hunt,RB,Name Change Blasphemy,Brett Wild,8
+79,3128390,Allen Lazard,WR,Josh Almighty,Neil Hersh,8
+81,2577417,Dak Prescott,QB,Dak PreScott Stapp,alex faust,9
+82,4569173,Rhamondre Stevenson,RB,Josh Almighty,Neil Hersh,9
+85,4040761,Devin Singletary,RB,Tokyo Drift Forever,Glorb Blorbensen,9
+89,3916148,Tony Pollard,RB,Fly Like An Eagles D/ST,Louis  Kapp,9
+90,15795,DeAndre Hopkins,WR,Shøçk thê Möñkę,Kyle Justus,9
+91,4241478,DeVonta Smith,WR,Shøçk thê Möñkę,Kyle Justus,10
+92,4360238,Dameon Pierce,RB,Fly Like An Eagles D/ST,Louis  Kapp,10
+94,4240021,Cam Akers,RB,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,10
+96,4379399,James Cook,RB,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,10
+97,4567156,Treylon Burks,WR,Dak PreScott Stapp,alex faust,10
+98,2980453,Jamaal Williams,RB,Name Change Blasphemy,Brett Wild,10
+100,4426502,Drake London,WR,Keep On Massag- ing Me Baby,Andrew Edmonds,10
+101,3121023,Dallas Goedert,TE,Dak PreScott Stapp,alex faust,11
+102,-16027,Buccaneers D/ST,D/ST,Josh Almighty,Neil Hersh,11
+103,3116164,Mike Gesicki,TE,Name Change Blasphemy,Brett Wild,11
+107,-16002,Bills D/ST,D/ST,Burrow My Head In The Sand,Stephen Hershfield,11
+108,8439,Aaron Rodgers,QB,Minshew Mania,John Prutting,11
+109,4360438,Brandon Aiyuk,WR,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,11
+111,-16017,Patriots D/ST,D/ST,Name Change Blasphemy,Brett Wild,12
+112,4569618,Garrett Wilson,WR,Fly Like An Eagles D/ST,Louis  Kapp,12
+115,-16025,49ers D/ST,D/ST,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,12
+116,4361370,Chris Olave,WR,Minshew Mania,John Prutting,12
+118,4035687,Michael Pittman Jr.,WR,Name Change Blasphemy,Brett Wild,12
+122,16757,Derek Carr,QB,Tokyo Drift Forever,Glorb Blorbensen,13
+123,2972515,Cooper Rush,QB,Name Change Blasphemy,Brett Wild,13
+124,4258595,Cole Kmet,TE,Minshew Mania,John Prutting,13
+125,3051909,Daniel Carlson,K,Dak PreScott Stapp,alex faust,13
+127,3917232,Tyler Bass,K,Keep On Massag- ing Me Baby,Andrew Edmonds,13
+129,15683,Justin Tucker,K,Fly Like An Eagles D/ST,Louis  Kapp,13
+131,4361411,Pat Freiermuth,TE,Shøçk thê Möñkę,Kyle Justus,14
+134,4373626,Tyler Allgeier,RB,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,14
+135,4360310,Trevor Lawrence,QB,Abra AbraKamara - He'll Grab Ya,Jared Cassiday,14
+136,-16007,Broncos D/ST,D/ST,Josh Almighty,Neil Hersh,14
+137,4360234,Evan McPherson,K,Burrow My Head In The Sand,Stephen Hershfield,14
+138,-16008,Lions D/ST,D/ST,Name Change Blasphemy,Brett Wild,14
+139,4248528,Christian Watson,WR,Josh Almighty,Neil Hersh,14
+140,3055899,Harrison Butker,K,Josh Almighty,Neil Hersh,14
+141,3122840,Deshaun Watson,QB,Keep On Massag- ing Me Baby,Andrew Edmonds,15
+143,3930066,Van Jefferson,WR,Tokyo Drift Forever,Glorb Blorbensen,15
+144,4241479,Tua Tagovailoa,QB,Tokyo Drift Forever,Glorb Blorbensen,15
+145,4362887,Justin Fields,QB,Keep On Massag- ing Me Baby,Andrew Edmonds,15
+147,4426388,Jameson Williams,WR,Burrow My Head In The Sand,Stephen Hershfield,15
+149,14880,Kirk Cousins,QB,Fly Like An Eagles D/ST,Louis  Kapp,15
+150,4035886,Khalil Herbert,RB,Fly Like An Eagles D/ST,Louis  Kapp,15
+152,2573401,Tyler Higbee,TE,Minshew Mania,John Prutting,16
+159,3123076,David Njoku,TE,Josh Almighty,Neil Hersh,16
