@@ -1,4 +1,9 @@
+# football
 espn_api==0.30.0
 nfl-data-py==0.3.0
+
+# analytics
 pandas==2.0.3
 scikit-learn==1.3.0
+
+flask==2.3.2
