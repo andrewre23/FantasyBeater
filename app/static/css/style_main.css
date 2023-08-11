@@ -1,0 +1,175 @@
+body {
+    background-color: lightgray;
+}
+
+.title {
+    border-style: ridge;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Agency FB";
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container {
+    border-style: solid;
+    border-color: black;
+}
+
+#complete {
+    border-color: #0027FF;
+    border-style: double;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    min-height: 85vh;
+    min-height: 550px;
+}
+
+#main .container {
+    padding: 10px;
+}
+
+#title {
+    border-color: #001BB2;
+    border-style: outset;
+    width: 300px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+#main {
+    background-color: #F7F3FA;
+    border-style: groove;
+    border-color: #0027FF;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#main h2 {
+    font-family: "Palatino Linotype";
+}
+
+#main th {
+    font-family: "Bitstream Vera Sans Mono";
+    border-bottom: 2pt solid black;
+}
+
+#main-title {
+    border-color: #193CFF;
+    border-style: groove;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 75px;
+    background-color: white;
+}
+
+#main-focus {
+    background-color: white;
+    border-color: #B28800;
+    border-style: solid;
+    margin: 10px;
+    margin-right: auto;
+    width: 65%;
+    float: left;
+}
+
+#portfolio_table {
+    border-collapse: separate;
+    border-style: ridge;
+    background-color: #F4F1F7;
+}
+
+#main-focus th {
+    background-color: ghostwhite;
+}
+
+#main-focus td {
+    font-family: "Felix Titling";
+    border-bottom: 1pt dotted black;
+    background-color: white;
+}
+
+#focus_total_row {
+    font-weight: bold;
+}
+
+#main-options {
+    background-color: white;
+    border-color: #B28800;
+    border-style: solid;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+    float: right;
+}
+
+#options_table {
+    text-align: center;
+    border-style: solid;
+    background-color: #F4F1F7;
+}
+
+#main-options th {
+    background-color: ghostwhite;
+}
+
+#main-options td {
+    font-family: Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    border-bottom: 1pt dotted black;
+    background-color: white;
+}
+#options_cash_row{
+    font-weight: bold;
+}
+#verbage {
+    border-color: #FFC200;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 80%;
+    min-height: 100px;
+    clear: both;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Fira Code";
+}
+
+#footer {
+    border-style: inset;
+    border-color: #FFC200;
+    margin-top: 1px;
+    padding: 10px;
+    text-align: right;
+    vertical-align: bottom;
+    font-family: "Trebuchet MS";
+    clear: both;
+
+}
+
+#verbage th {
+    display: inline-block;
+}
+
+
+.button {
+    background-color: white;
+    color: #001BB2;
+    border: thin;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+img {
+   padding:1px;
+   border:1px solid #021a40;
+}

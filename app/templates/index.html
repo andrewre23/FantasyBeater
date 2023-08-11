@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}FantasyBeater{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>Hello, {% if name %}{{ name }}{% else %}Stranger{% endif %}!</h1>
+</div>
+<h1>
+    <div style="text-align: center;">Welcome to FantasyBeater!</div>
+</h1>
+<p>
+    <div style="text-align: center;">Your one-stop shop for mastering Fantasy Football using Python!</div>
+</p>
+{{ wtf.quick_form(form) }}
+{% endblock %}
