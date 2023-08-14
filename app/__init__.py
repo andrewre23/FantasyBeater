@@ -1,7 +1,7 @@
 from config import config
 from flask import Flask
 
-from .extensions import bootstrap, db, moment
+from app.extensions import bootstrap, db, moment
 
 
 def create_app(config_name):
