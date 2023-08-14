@@ -12,9 +12,15 @@ sqlalchemy==2.0.19
 # flask
 flask==2.3.2
 flask-bootstrap==3.3.7.1
+flask-login==0.6.2
+flask-mail==0.9.1
 flask-migrate==4.0.4
 flask-moment==1.0.5
+flask-restful==0.3.10
 flask-script==2.0.6
 flask-sqlalchemy==3.0.5
 flask-wtf==1.1.1
 Jinja2==3.1.2
+
+# utils
+python-dotenv==1.0.0
