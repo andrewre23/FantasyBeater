@@ -1,12 +1,7 @@
-from flask import Flask
-from flask_bootstrap import Bootstrap
-from flask_moment import Moment
-from flask_sqlalchemy import SQLAlchemy
 from config import config
+from flask import Flask
 
-bootstrap = Bootstrap()
-moment = Moment()
-db = SQLAlchemy()
+from .extensions import bootstrap, db, moment
 
 
 def create_app(config_name):
@@ -15,8 +10,8 @@ def create_app(config_name):
     config[config_name].init_app(app)
 
     bootstrap.init_app(app)
-    moment.init_app(app)
     db.init_app(app)
+    moment.init_app(app)
 
     # attach routes and custom error pages here
     from .main import main as main_blueprint
