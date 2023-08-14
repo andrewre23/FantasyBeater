@@ -1,13 +1,13 @@
-import espn_api.football as fb
-import pandas as pd
+import os
 import unittest
 
-from pathlib import Path
+import espn_api.football as fb
+import pandas as pd
 
-from core.data.build import build_draft, build_roster
+from src.core.data.build import build_draft, build_roster
 
 
-curr_dir = Path.cwd()
+curr_dir = os.path.dirname(os.path.realpath(__file__))
 
 
 class DataTest(unittest.TestCase):
@@ -24,17 +24,17 @@ class DataTest(unittest.TestCase):
     def test_roster(self):
         # complete roster with draft pick info
         built_roster = build_roster(self.ff_league)
-        loaded_roster = pd.read_csv(curr_dir / 'datasets/roster.csv', index_col='pick')
+        loaded_roster = pd.read_csv(curr_dir + '/datasets/roster.csv', index_col='pick')
         pd.testing.assert_frame_equal(built_roster.sort_index(), loaded_roster.sort_index())
 
         # roster with no draft info
         built_roster_no_draft = build_roster(self.ff_league, add_draft=False)
-        loaded_roster_no_draft = pd.read_csv(curr_dir / 'datasets/roster-no_draft.csv', index_col='player_id')
+        loaded_roster_no_draft = pd.read_csv(curr_dir + '/datasets/roster-no_draft.csv', index_col='player_id')
         pd.testing.assert_frame_equal(built_roster_no_draft.sort_index(), loaded_roster_no_draft.sort_index())
 
     def test_draft(self):
         built_draft = build_draft(self.ff_league)
-        loaded_draft = pd.read_csv(curr_dir / 'datasets/draft.csv', index_col='pick')
+        loaded_draft = pd.read_csv(curr_dir + '/datasets/draft.csv', index_col='pick')
         pd.testing.assert_frame_equal(built_draft.sort_index(), loaded_draft.sort_index())
 
 
