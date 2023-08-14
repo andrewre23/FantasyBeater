@@ -3,7 +3,7 @@ import os
 from config import config
 from flask import Flask
 
-from app.extensions import bootstrap, db, moment
+from app.extensions import bootstrap, db, moment, toolbar
 
 
 def create_app():
@@ -19,6 +19,7 @@ def create_app():
     bootstrap.init_app(app)
     db.init_app(app)
     moment.init_app(app)
+    toolbar.init_app(app)
 
     # attach routes and custom error pages
     from .main import main as main_blueprint
