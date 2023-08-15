@@ -1,13 +1,14 @@
-from flask import render_template, session, redirect, url_for
+from flask import render_template
+from flask_login import login_required, current_user
 from . import main
-from .forms import NameForm
-from app.extensions import db
 
 
-@main.route('/', methods=['GET', 'POST'])
+@main.route('/')
 def index():
-    form = NameForm()
-    if form.validate_on_submit():
-        session['name'] = form.name.data
-        return redirect(url_for('.index'))
-    return render_template('index.html', form=form, name=session.get('name'))
+    return render_template('main/index.html')
+
+
+@main.route('/profile')
+@login_required
+def profile():
+    return render_template('users/profile.html', name=current_user.name)
