@@ -2,7 +2,7 @@ import os
 
 from flask import Flask
 
-from app.extensions import bootstrap, db, login, moment, toolbar
+from app.extensions import bootstrap, db, login, migrate, moment, toolbar
 from config import config
 
 
@@ -19,6 +19,7 @@ def create_app():
     db.init_app(app)
 
     bootstrap.init_app(app)
+    migrate.init_app(app, db)
     moment.init_app(app)
     toolbar.init_app(app)
 
@@ -37,5 +38,8 @@ def create_app():
 
     from .main import main as main_blueprint
     app.register_blueprint(main_blueprint)
+
+    from .leagues import leagues as league_blueprint
+    app.register_blueprint(league_blueprint)
 
     return app

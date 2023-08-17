@@ -1,0 +1,28 @@
+<!-- templates/profile.html -->
+
+{% extends "main/base.html" %}
+
+{% block content %}
+    <h1>Add A League</h1>
+    <form action="" method="post" novalidate>
+        {{  form.hidden_tag() }}
+
+        <p>
+            {{ form.league_id.label }}<br>
+            {{ form.league_id }}
+        </p>
+        <p>
+            {{ form.espn_s2.label }}<br>
+            {{ form.espn_s2 }}
+        </p>
+        <p>
+            {{ form.swid.label }}<br>
+            {{ form.swid }}
+        </p>
+        <p>
+            {{ form.nickname.label }}<br>
+            {{ form.nickname }}
+        </p>
+        <p>{{ form.submit }}</p>
+    </form>
+{% endblock %}
