@@ -1,0 +1,84 @@
+<!-- templates/profile.html -->
+
+{% extends "main/base.html" %}
+
+{% block content %}
+    <h1 class="title">
+        Your Leagues
+    </h1>
+
+    {% if not league_data|count>0 %}
+        <h1>
+            <div style="text-align: center;">
+                No Leagues Found!
+            </div>
+        </h1>
+        <p>
+            <div style="text-align: center;">
+                There are no leagues associated with your account
+            </div>
+        </p>
+
+    {% else %}
+        <h2>
+            <div style="text-align: center;">
+                Leagues
+            </div>
+        </h2>
+        <table>
+            <tr>
+                <th>
+                    <div style="text-align: center;">
+                        League ID
+                    </div>
+                </th>
+                <th>
+                    <div style="text-align: center;">
+                        League
+                    </div>
+                </th>
+            </tr>
+            {% for league in league_data %}
+                <tr>
+                    <td>
+                        <div style="text-align: center;">
+                            {{ league.nickname }}
+                        </div>
+                    </td>
+                    <td>
+                        <div style="text-align: center;">
+                            {{ league.league_id }}
+                        </div>
+                    </td>
+                    <td>
+                        <form action="{{ url_for('leagues.view', league_id=league.league_id) }}">
+                            <button type="submit">
+                                View League
+                            </button>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="{{ url_for('leagues.edit', league_id=league.league_id) }}">
+                            <button type="submit">
+                                Edit League
+                            </button>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="{{ url_for('leagues.delete', league_id=league.league_id) }}">
+                            <button type="submit">
+                                Delete League
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+
+        <form action="{{ url_for('leagues.add') }}">
+            <button type="submit">
+                Add League
+            </button>
+        </form>
+{% endblock %}

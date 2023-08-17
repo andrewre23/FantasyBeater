@@ -1,15 +1,14 @@
-from flask_login import UserMixin
-
 from app.extensions import db
 
 
-class User(UserMixin, db.Model):
-    __tablename__ = 'users'
+class League(db.Model):
+    __tablename__ = 'leagues'
     id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(100), unique=True)
-    password = db.Column(db.String(100))
-    name = db.Column(db.String(1000))
-    leagues = db.relationship('League', backref='manager', lazy=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    league_id = db.Column(db.Integer)
+    espn_s2 = db.Column(db.String(400))
+    swid = db.Column(db.String(40))
+    nickname = db.Column(db.String(25))
 
     def __repr__(self):
         return '<User %r>' % self.name

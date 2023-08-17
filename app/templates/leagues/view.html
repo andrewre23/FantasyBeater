@@ -1,0 +1,10 @@
+<!-- templates/profile.html -->
+
+{% extends "main/base.html" %}
+
+{% block content %}
+    <h1>League: {{ league_data.nickname }}</h1>
+    <h2>League ID: {{ league_data.league_id }}</h2>
+    <h2>ESPN S2: {{ league_data.espn_s2 }}</h2>
+    <h2>SWID: {{ league_data.swid }}</h2>
+{% endblock %}
